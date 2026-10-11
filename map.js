@@ -208,15 +208,8 @@ Main = (function () {
         const [, value] = place;
 
         view.goTo({
-            target: {
-                type: "point",
-                x: value.coord[0],
-                y: value.coord[1]
-            },
-            scale: 50000,
-            tilt: 0
-        }, {
-            duration: 2000
+            center: [value.coord[0], value.coord[1]],
+            zoom: 12
         });
     }
 

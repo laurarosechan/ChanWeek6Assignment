@@ -1,0 +1,16 @@
+#searchContainer {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+
+    background: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+#citySearch {
+    width: 200px;
+}
